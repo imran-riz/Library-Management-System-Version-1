@@ -1,0 +1,26 @@
+.label
+{
+	-fx-font-family : "Dialog" ;
+	-fx-text-fill : black ;
+	-fx-font-size : 12pt ;
+}
+
+.button
+{
+	-fx-background-color : black ;
+	-fx-background-radius : 5 ;
+	-fx-font-family : "Comic Sans MS" ;
+	-fx-font-size : 12.5pt ;
+	-fx-font-weight : bold ;
+	-fx-text-fill : white ;
+}
+
+.text-field
+{
+	-fx-border : gone ;
+	-fx-background-color : black ;
+	-fx-background-radius : 4 ;
+	-fx-font-family : "Comic Sans MS" ;
+	-fx-font-size : 10pt ;
+	-fx-text-fill : white ;
+}

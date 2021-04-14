@@ -1,0 +1,93 @@
+#welcomeLabel_style
+{
+	-fx-font-family : "MV Boli" ;
+	-fx-font-size : 18pt ;
+	-fx-text-fill : black ;
+	-fx-text-border-fill : black ;
+	-fx-font-weight : bolder ;
+}
+
+#header_style
+{
+	-fx-font-family : "Comic Sans MS" ;
+	-fx-font-size : 15pt ;
+	-fx-text-fill : black ;
+	-fx-font-weight : bold ;
+}
+
+#optionBtn_style
+{
+	-fx-font-family : "Comic Sans MS" ;
+	-fx-font-size : 12pt ;
+	-fx-background-color : black ;
+	-fx-text-fill : white ;
+	-fx-font-weight : bold ;
+	-fx-font-style : italic ;
+	-fx-background-radius : 5 ;
+}
+
+.text-field
+{
+/*	-fx-background-color : transparent ;*/
+	-fx-background-radius : 5 ;
+	-fx-font-size : 10pt ;
+	-fx-font-family : "Comic Sans MS" ;
+}
+
+#searchBtn_style
+{
+	-fx-font-family : "Comic Sans MS" ; 
+	-fx-font-size : 9pt ;
+	-fx-background-color : lightblue ;
+	-fx-text-fill : black ;
+	-fx-background-radius : 5 ;	
+}
+
+#backBtn_style
+{	
+	-fx-font-family : "Dialog" ;
+	-fx-font-size : 10pt ;
+	-fx-background-color : black ;
+	-fx-text-fill : white ;
+	-fx-font-weight : bold ;
+	-fx-background-radius : 5 ;
+}
+
+.table-view .column-header-background .filler
+{
+	-fx-background-color : transparent ;
+}
+
+.table-view .column-header-background
+{
+    -fx-background-color: black ;	/* #ffcc80 */
+    -fx-text-background-color : white ;
+    -fx-font-size : 10.5pt ;
+}
+
+.table-view .column-header 
+{
+    -fx-background-color: transparent ;
+}
+
+.table-view .table-cell
+{
+	-fx-border-color: transparent;
+}
+
+.table-row-cell
+{
+	-fx-background-color : #ffb84d ;
+	-fx-text-background-color : black ;
+	-fx-font-size : 9.8pt ;
+}
+
+.table-row-cell:empty
+{
+	-fx-background-color: black ;
+}
+
+.table-row-cell:empty .table-cell
+{
+	-fx-border-width: 0px ;
+}
