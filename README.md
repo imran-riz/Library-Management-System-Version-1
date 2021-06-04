@@ -7,7 +7,7 @@ Everytime a user reserves a book, the request is sent to the admins who issues t
 A user is allowed to borrow a maximum of 5 books only at a time.
 
 
-Admins are allowed to add new books, make changes to the details of the books and look at status of all the books.
+Admins are allowed to add new books, make changes to the details of the books and look at the status of all the books.
 
 ![alt text](https://github.com/amateur-coder-1002/Library-Management-System/blob/main/Screenshots/WelcomeScene.png)
 ![alt text](https://github.com/amateur-coder-1002/Library-Management-System/blob/main/Screenshots/SearchScene.png)
