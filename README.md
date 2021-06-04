@@ -11,4 +11,4 @@ For the UI I have used JavaFX and My-SQL for the back-end.
 Further features to be implemented:
 - Creating a new member account
 - Printing the records of books and ones been borrowed
-- A way to set the number of max books to be borrowed without direcetly accessing the database.
+- A way to make changes to the settings(like the number of max books to be borrowed) without direcetly accessing the database.
