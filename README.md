@@ -1,10 +1,21 @@
 # Library-Management-System
+![alt text](https://github.com/amateur-coder-1002/Library-Management-System/blob/main/Screenshots/WelcomeScene.png)
+![alt text](https://github.com/amateur-coder-1002/Library-Management-System/blob/main/Screenshots/SearchScene.png)
 
-A library management system that allows members to reserve, borrow and return books.
+
+A library management system that allows members to search, reserve, borrow and return books.
+
 Everytime a user reserves a book, the request is sent to the admins who issues the book to the member. When a book is reserved, issued and returned, the date is recorded.
 A user is allowed to borrow a maximum of 5 books only at a time.
+![alt text](https://github.com/amateur-coder-1002/Library-Management-System/blob/main/Screenshots/MemberPage.png)
+
+![alt text](https://github.com/amateur-coder-1002/Library-Management-System/blob/main/Screenshots/Member_Collage.png)
+
 
 Admins are allowed to add new books, make changes to the details of the books and look at status of all the books.
+![alt text](https://github.com/amateur-coder-1002/Library-Management-System/blob/main/Screenshots/AdminPage.png)
+
+![alt text](https://github.com/amateur-coder-1002/Library-Management-System/blob/main/Screenshots/Admin_Collage.png)
 
 For the UI I have used JavaFX and My-SQL for the back-end.
 
