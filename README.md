@@ -9,12 +9,12 @@ A library management system that allows members to search, reserve, borrow and r
 Everytime a user reserves a book, the request is sent to the admins who issues the book to the member. When a book is reserved, issued and returned, the date is recorded.
 A user is allowed to borrow a maximum of 5 books only at a time.
 ![alt text](https://github.com/amateur-coder-1002/Library-Management-System/blob/main/Screenshots/MemberPage.png)
-![alt text](https://github.com/amateur-coder-1002/Library-Management-System/blob/main/Screenshots/Member_collage.png)
+![alt text](https://github.com/amateur-coder-1002/Library-Management-System/blob/main/Screenshots/Member_collage.jpg)
 
 
 Admins are allowed to add new books, make changes to the details of the books and look at status of all the books.
 ![alt text](https://github.com/amateur-coder-1002/Library-Management-System/blob/main/Screenshots/AdminPage.png)
-![alt text](https://github.com/amateur-coder-1002/Library-Management-System/blob/main/Screenshots/Admin_collage.png)
+![alt text](https://github.com/amateur-coder-1002/Library-Management-System/blob/main/Screenshots/Admin_collage.jpg)
 
 
 Further features to be implemented:
