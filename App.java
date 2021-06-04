@@ -20,7 +20,8 @@ import javafx.geometry.* ;
 import java.util.* ;
 import java.io.* ;
 
-// java -cp ".;mysql-connector-java-8.0.23.jar" App
+// javac --module-path "%PATH_TO_FX%" --add-modules javafx.controls -cp ".;mysql-connector-java-8.0.23.jar" App.java
+// java --module-path "%PATH_TO_FX%" --add-modules javafx.controls -cp ".;mysql-connector-java-8.0.23.jar" App
 
 public class App extends Application
 {
@@ -282,18 +283,21 @@ public class App extends Application
 		BorderPane b_pane = new BorderPane() ;		
 
 		String str = "Welcome, " + theUser.getFirstName() + "!" ;
+
+		Label acctHeader = new Label("ADMINISTRATOR") ;
+		acctHeader.setId("acctHeader_style") ;
 		
 		Label welcomeLabel = new Label(str) ;
 		welcomeLabel.setId("welcomeLabel_style") ;
-		welcomeLabel.setPrefWidth(200) ;
 
 		Label lbl_1 = new Label(("Your ID is " + theUser.getId())) ;
 		lbl_1.setPrefWidth(120) ;
 		lbl_1.setId("justSomeText") ;
 		lbl_1.setMaxSize(Region.USE_PREF_SIZE, Region.USE_PREF_SIZE) ;
 
-		VBox vbox1 = new VBox(welcomeLabel) ;
+		VBox vbox1 = new VBox(15) ;
 		vbox1.setPadding(new Insets(10)) ;
+		vbox1.getChildren().addAll(acctHeader, welcomeLabel) ;
 		vbox1.setAlignment(Pos.TOP_CENTER) ;
 
 		VBox vbox2 = new VBox(10) ;
@@ -314,7 +318,7 @@ public class App extends Application
 		}) ;
 
 		VBox vbox3 = new VBox(signOut_btn) ;
-		vbox3.setPadding(new Insets(100, 10, 15, 10)) ;		// up, right, ,	// top, right, bottom, left
+		vbox3.setPadding(new Insets(100, 10, 15, 10)) ;		// top, right, bottom, left
 		vbox3.setAlignment(Pos.BOTTOM_RIGHT) ;
 
 		StackPane stack_pane = new StackPane() ;
@@ -652,10 +656,13 @@ public class App extends Application
 
 	private void memberPage()
 	{
+		Label acctHeader = new Label("MEMBER") ;
+		acctHeader.setId("acctHeader_style") ;
+
 		String str = "Welcome, " + theUser.getFirstName() + "!" ;
 
-		Label header = new Label(str) ;
-		header.setId("welcomeLabel_style") ;
+		Label welcomeLabel = new Label(str) ;
+		welcomeLabel.setId("welcomeLabel_style") ;
 
 		Label lbl_1 = new Label("Your MemberID : " + theUser.getId()) ;
 		lbl_1.setId("instruction_style") ;
@@ -687,7 +694,8 @@ public class App extends Application
 				window.setScene(startScene) ;
 		}) ;
 
-		VBox vbox1 =new VBox(header) ;
+		VBox vbox1 =new VBox(15) ;
+		vbox1.getChildren().addAll(acctHeader, welcomeLabel) ;
 		vbox1.setAlignment(Pos.TOP_CENTER) ;
 		vbox1.setPadding(new Insets(25, 0, 0, 0)) ;
 
