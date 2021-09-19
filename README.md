@@ -1,4 +1,4 @@
-# Library-Management-System
+# Library-Management-System-Version-1
 A library management system that allows members to search, reserve, borrow and return books. For the UI I have used JavaFX and My-SQL for the back-end.
 
 
